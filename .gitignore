@@ -1,0 +1,7 @@
+.vs/
+node_modules/
+*.bat
+*.txt
+data/*.psd
+resources/
+dist/

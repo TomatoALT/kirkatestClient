@@ -1,0 +1,33 @@
+{
+  "name": "kclient2.0",
+  "version": "2.2.2",
+  "description": "A performance client for Kirka.io",
+  "main": "src/main.js",
+  "author": "Tomato",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder build --win --x64",
+    "pack": "electron-builder --dir"
+  },
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8",
+    "electron-localshortcut": "^3.2.1",
+    "electron-prompt": "^1.7.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.0.1",
+    "follow-redirects": "^1.14.5",
+    "get-blob-duration": "^1.2.0",
+    "node-fetch": "^2.6.5",
+    "update-electron-app": "^2.0.1",
+    "v8-compile-cache": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomatoALT/kirkatestClient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomatoALT/kirkatestClient/issues"
+  },
+  "homepage": "https://github.com/TomatoALT/kirkatestClient/releases"
+}
